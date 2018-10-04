@@ -17,5 +17,15 @@ $(document).ready(function(){
     $("#btn3").on("click", function(){
         alert("Third button is working");
         $(this).css("text-transform", "uppercase");
-    })
+    });
+
+    // $(".icon").on("mouseover", function(){
+    //     $(".icon").css("opacity", 1);
+    //     $(this).css("opacity", 0.3);
+    // });
+
+    $(".icon").mouseover(function(){
+        $(".icon").css("opacity", 1);
+        $(this).css("opacity", 0.3);
+    });
 });
